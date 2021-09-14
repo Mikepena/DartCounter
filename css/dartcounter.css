@@ -12,10 +12,6 @@
 .count {
   font-size: 60px;
 }
-.radios {
-  position: absolute;
-  left: 980px;
-}
 
 .nextPlayer {
   position: absolute;
@@ -26,11 +22,15 @@
   position: absolute;
   left: 700px;
 }
-.radios {
-  position: absolute;
-  left: 550px;
-}
+
 .buttondoubles {
   height: 50px;
   width: 76px;
+}
+.threeDartsCounterPlayerOne {
+  color: rgb(104, 42, 42);
+  text-shadow: 2px 2px 5px black;
+  font-size: 1cm;
+  letter-spacing: 3px;
+  font-family: Century Gothic, sans-serif;
 }

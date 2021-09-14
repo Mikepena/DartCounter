@@ -1,0 +1,118 @@
+.buttonnumbertriple {
+  height: 15px;
+  width: 48px;
+  position: fixed;
+  border-radius: 200px;
+  right: 9.222cm;
+  bottom: 10.5cm;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+#triple1 {
+  margin-bottom: 39.7mm;
+  margin-right: -8.4mm;
+  transform: rotate(18deg);
+}
+#triple18 {
+  margin-bottom: 34.3mm;
+  margin-right: -19.5mm;
+  transform: rotate(36deg);
+}
+#triple4 {
+  margin-bottom: 24.8mm;
+  margin-right: -29mm;
+  transform: rotate(54deg);
+}
+
+#triple13 {
+  margin-bottom: 13.7mm;
+  margin-right: -34.5mm;
+  transform: rotate(72deg);
+}
+#triple6 {
+  margin-right: -36.9mm;
+  margin-bottom: 1mm;
+
+  transform: rotate(90deg);
+}
+#triple10 {
+  margin-right: -34.8mm;
+  margin-bottom: -11.6mm;
+
+  transform: rotate(108deg);
+}
+#triple15 {
+  margin-bottom: -23.3mm;
+  margin-right: -29.1mm;
+  transform: rotate(306deg);
+}
+
+#triple2 {
+  margin-bottom: -32.5mm;
+  margin-right: -20.2mm;
+  transform: rotate(144deg);
+}
+#triple17 {
+  margin-bottom: -38.2mm;
+  margin-right: -9mm;
+  transform: rotate(162deg);
+}
+#triple3 {
+  margin-bottom: -40.3mm;
+  margin-right: 3.8mm;
+  transform: rotate(0deg);
+}
+#triple19 {
+  margin-bottom: -38.9mm;
+  margin-right: 16.4mm;
+  transform: rotate(18deg);
+}
+#triple7 {
+  margin-bottom: -32.9mm;
+  margin-right: 27.8mm;
+  transform: rotate(36deg);
+}
+#triple16 {
+  margin-bottom: -23.8mm;
+  margin-right: 37.5mm;
+  transform: rotate(416deg);
+}
+#triple8 {
+  margin-right: 43.2mm;
+  margin-bottom: -12mm;
+
+  transform: rotate(432deg);
+}
+#triple11 {
+  margin-right: 45mm;
+  margin-bottom: 0.5mm;
+
+  transform: rotate(90deg);
+}
+#triple14 {
+  margin-right: 43.3mm;
+  margin-bottom: 13.6mm;
+
+  transform: rotate(108deg);
+}
+#triple12 {
+  margin-bottom: 34.2mm;
+  margin-right: 28.5mm;
+  transform: rotate(144deg);
+}
+#triple9 {
+  margin-bottom: 24.8mm;
+  margin-right: 37.6mm;
+  transform: rotate(306deg);
+}
+#triple5 {
+  margin-bottom: 39.8mm;
+  margin-right: 17.1mm;
+  transform: rotate(-18deg);
+}
+#triple20 {
+  margin-bottom: 41.6mm;
+  margin-right: 4.5mm;
+  transform: rotate(0deg);
+}

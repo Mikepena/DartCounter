@@ -1,0 +1,117 @@
+.buttonnumberdouble {
+  height: 18px;
+  width: 78px;
+  position: fixed;
+  border-radius: 15px;
+  right: 9.222cm;
+  bottom: 10.5cm;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+#double1 {
+  margin-bottom: 63.5mm;
+  margin-right: -19.9mm;
+  transform: rotate(18deg);
+}
+
+#double4 {
+  margin-bottom: 39.8mm;
+  margin-right: -53mm;
+  transform: rotate(54deg);
+}
+#double18 {
+  margin-bottom: 54.5mm;
+  margin-right: -38.4mm;
+  transform: rotate(36deg);
+}
+#double13 {
+  margin-bottom: 21.2mm;
+  margin-right: -62.5mm;
+  transform: rotate(72deg);
+}
+#double6 {
+  margin-right: -65.9mm;
+  margin-bottom: 0.7mm;
+
+  transform: rotate(90deg);
+}
+#double10 {
+  margin-right: -62.9mm;
+  margin-bottom: -20mm;
+
+  transform: rotate(108deg);
+}
+#double15 {
+  margin-bottom: -38.3mm;
+  margin-right: -54.5mm;
+  transform: rotate(306deg);
+}
+
+#double2 {
+  margin-bottom: -53.3mm;
+  margin-right: -39mm;
+  transform: rotate(144deg);
+}
+#double17 {
+  margin-bottom: -63.2mm;
+  margin-right: -21mm;
+  transform: rotate(162deg);
+}
+#double3 {
+  margin-bottom: -66mm;
+  transform: rotate(0deg);
+}
+#double19 {
+  margin-bottom: -63mm;
+  margin-right: 20.6mm;
+  transform: rotate(18deg);
+}
+#double7 {
+  margin-bottom: -54mm;
+  margin-right: 39.2mm;
+  transform: rotate(36deg);
+}
+#double16 {
+  margin-bottom: -39.4mm;
+  margin-right: 53.5mm;
+  transform: rotate(416deg);
+}
+#double8 {
+  margin-right: 63.5mm;
+  margin-bottom: -20.6mm;
+
+  transform: rotate(432deg);
+}
+#double11 {
+  margin-right: 66.7mm;
+  margin-bottom: 0.4mm;
+
+  transform: rotate(90deg);
+}
+#double14 {
+  margin-right: 63.7mm;
+  margin-bottom: 20.6mm;
+
+  transform: rotate(108deg);
+}
+#double12 {
+  margin-bottom: 54mm;
+  margin-right: 39.5mm;
+  transform: rotate(144deg);
+}
+#double9 {
+  margin-bottom: 38.3mm;
+  margin-right: 54.5mm;
+  transform: rotate(306deg);
+}
+#double5 {
+  margin-bottom: 63.7mm;
+  margin-right: 21.3mm;
+  transform: rotate(-18deg);
+}
+#double20 {
+  margin-bottom: 66.8mm;
+  margin-right: 0.7mm;
+  transform: rotate(0deg);
+}

@@ -1,46 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      body {
+        background: linear-gradient(
+          rgba(255, 255, 255, 0.2),
+          rgba(255, 255, 255, 0.2)
+        );
+        background-image: url("background2.jpg");
+        background-size: cover;
+      }
+    </style>
     <link rel="stylesheet" href="css/dartcounter.css" />
     <link rel="stylesheet" href="css/buttonnumbersingles.css" />
     <link rel="stylesheet" href="css/buttonnumbersdoubles.css" />
+    <link rel="stylesheet" href="css/buttonnumberstriple.css" />
   </head>
 
   <body>
-    <img
-      class="dartscheibe"
-      src="dartscheibe.png"
-      alt=""
-      width="700"
-      height="700"
-    />
-
-    <div class="div" id="input">
-      <div class="radios" id="radio">
-        <input
-          type="radio"
-          id="single"
-          name="multiplier"
-          value="single"
-          checked
-        />
-        <label for="single">Single</label><br />
-        <input type="radio" id="double" name="multiplier" value="female" />
-        <label for="double">Double</label><br />
-        <input type="radio" id="treble" name="multiplier" value="treble" />
-        <label for="treble">Treble</label>
-      </div>
-    </div>
     <div class="playerOne" id="p1">
       <h1>Player1</h1>
       <p class="count" id="count1">501</p>
       <p class="counter" id="counterPlayerOne">0</p>
+      <p class="threeDartsCounterPlayerOne" id="dartsPlayerOne">0</p>
     </div>
     <div class="playerTwo" id="p2">
       <h1>Player2</h1>
 
       <p class="count" id="count2">501</p>
       <p class="counter" id="counterPlayerTwo">0</p>
+
+      <p class="threeDartsCounterPlayerTwo" id="dartsPlayerTwo">0</p>
     </div>
 
     <button type="button" class="buttonnextplayer" id="nextPlayerButton">
@@ -50,7 +40,7 @@
     <h2 class="nextPlayer" id="nextPlayer"></h2>
     <img
       class="dartscheibe"
-      src="dartscheibe.png"
+      src="dartscheibetest.png"
       alt=""
       width="700"
       height="700"
@@ -80,7 +70,7 @@
       <button type="button" class="buttonnumber50" id="50">50</button>
     </div>
 
-    <div class="buttondoubles2">
+    <div class="buttondoubles">
       <button type="button" class="buttonnumberdouble" id="double1">2</button>
       <button type="button" class="buttonnumberdouble" id="double2">4</button>
       <button type="button" class="buttonnumberdouble" id="double3">6</button>
@@ -102,29 +92,29 @@
       <button type="button" class="buttonnumberdouble" id="double19">38</button>
       <button type="button" class="buttonnumberdouble" id="double20">40</button>
     </div>
-    <!-- 
+
     <div class="button_triples">
-      <button type="button" class="buttonnumber1" id="1">3</button>
-      <button type="button" class="buttonnumber2" id="2">6</button>
-      <button type="button" class="buttonnumber3" id="3">9</button>
-      <button type="button" class="buttonnumber4" id="4">12</button>
-      <button type="button" class="buttonnumber5" id="5">15</button>
-      <button type="button" class="buttonnumber6" id="6">18</button>
-      <button type="button" class="buttonnumber7" id="7">21</button>
-      <button type="button" class="buttonnumber8" id="8">24</button>
-      <button type="button" class="buttonnumber9" id="9">27</button>
-      <button type="button" class="buttonnumber10" id="10">30</button>
-      <button type="button" class="buttonnumber11" id="11">33</button>
-      <button type="button" class="buttonnumber12" id="12">36</button>
-      <button type="button" class="buttonnumber13" id="13">39</button>
-      <button type="button" class="buttonnumber14" id="14">42</button>
-      <button type="button" class="buttonnumber15" id="15">45</button>
-      <button type="button" class="buttonnumber16" id="16">48</button>
-      <button type="button" class="buttonnumber17" id="17">51</button>
-      <button type="button" class="buttonnumber18" id="18">54</button>
-      <button type="button" class="buttonnumber19" id="19">57</button>
-      <button type="button" class="buttonnumber20" id="20">60</button>
-    </div> -->
+      <button type="button" class="buttonnumbertriple" id="triple1">3</button>
+      <button type="button" class="buttonnumbertriple" id="triple2">6</button>
+      <button type="button" class="buttonnumbertriple" id="triple3">9</button>
+      <button type="button" class="buttonnumbertriple" id="triple4">12</button>
+      <button type="button" class="buttonnumbertriple" id="triple5">15</button>
+      <button type="button" class="buttonnumbertriple" id="triple6">18</button>
+      <button type="button" class="buttonnumbertriple" id="triple7">21</button>
+      <button type="button" class="buttonnumbertriple" id="triple8">24</button>
+      <button type="button" class="buttonnumbertriple" id="triple9">27</button>
+      <button type="button" class="buttonnumbertriple" id="triple10">30</button>
+      <button type="button" class="buttonnumbertriple" id="triple11">33</button>
+      <button type="button" class="buttonnumbertriple" id="triple12">36</button>
+      <button type="button" class="buttonnumbertriple" id="triple13">39</button>
+      <button type="button" class="buttonnumbertriple" id="triple14">42</button>
+      <button type="button" class="buttonnumbertriple" id="triple15">45</button>
+      <button type="button" class="buttonnumbertriple" id="triple16">48</button>
+      <button type="button" class="buttonnumbertriple" id="triple17">51</button>
+      <button type="button" class="buttonnumbertriple" id="triple18">54</button>
+      <button type="button" class="buttonnumbertriple" id="triple19">57</button>
+      <button type="button" class="buttonnumbertriple" id="triple20">60</button>
+    </div>
   </body>
   <script src="js/dartcounter.js"></script>
 </html>
