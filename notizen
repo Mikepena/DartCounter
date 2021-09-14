@@ -1,0 +1,27 @@
+display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        position: absolute;
+        left: 700px;
+        bottom: 100px;
+        width: 650px;
+        height: 500px;
+//alle buttonsdisplay
+div.button {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        position: absolute;
+        left: 850px;
+        bottom: 150px;
+        width: 400px;
+        height: 400px;
+      }
+//transparenter background
+background: transparent;
+        border: none !important;
+        font-size:0;
+
+        const winner = document.createElement("h1");
+    winner.innerText = player + " has won the game!";
+    document.body.append(winner);

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("dart-background.jpg");
+        background-size: cover;
+      }
+      div.gameButtons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        margin-top: -180px;
+        margin-left: -200px;
+        width: 1000px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gameButtons">
+      <button
+        id="x01"
+        onclick="window.open('file:///Users/mikezeplichal/Documents/Dart%20Counter/index.html')"
+      >
+        x01
+      </button>
+      <button id="cricket" onclick="window.open('Placeholder')">Cricket</button>
+      <button onclick="window.open('Placeholder')">Shanghai</button>
+      <button onclick="window.open('Placeholder')">Elimination</button>
+    </div>
+  </body>
+</html>
