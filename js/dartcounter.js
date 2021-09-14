@@ -219,3 +219,22 @@ document.querySelector("[id='20']").onclick = function () {
 document.querySelector("[id='25']").onclick = function () {
   changePoints(25, multiplier());
 };
+document.querySelector("[id='50']").onclick = function () {
+  changePoints(50, multiplier());
+};
+
+document.querySelector("#double1").onclick = function () {
+  changePoints(2, multiplier());
+};
+document.querySelector("#double2").onclick = function () {
+  changePoints(4, multiplier());
+};
+document.querySelector("#double3").onclick = function () {
+  changePoints(6, multiplier());
+};
+document.querySelector("#double4").onclick = function () {
+  changePoints(8, multiplier());
+};
+document.querySelector("#double15").onclick = function () {
+  changePoints(30, multiplier());
+};

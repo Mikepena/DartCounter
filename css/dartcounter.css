@@ -3,6 +3,7 @@
   top: 60px;
   left: 50px;
 }
+
 .playerTwo {
   position: absolute;
   top: 60px;
@@ -15,6 +16,7 @@
   position: absolute;
   left: 980px;
 }
+
 .nextPlayer {
   position: absolute;
   top: 250px;
@@ -28,36 +30,7 @@
   position: absolute;
   left: 550px;
 }
-
-.buttonnumber1 {
-  height: 70px;
-  width: 50px;
-  position: absolute;
-  left: 1090px;
-  top: 125px;
-  transform: rotate(17deg);
-  border-radius: 10px;
-}
-.buttonnumber2 {
-  height: 70px;
-  width: 50px;
-  position: absolute;
-  right: 300px;
-  bottom: 180px;
-  transform: rotate(-15deg);
-  border-radius: 10px;
-}
-.buttonnumber20 {
-  height: 70px;
-  width: 50px;
-  position: absolute;
-  right: 365px;
-  top: 115px;
-}
-.buttonnumber3 {
-  height: 75px;
-  width: 50px;
-  position: absolute;
-  right: 362px;
-  bottom: 165px;
+.buttondoubles {
+  height: 50px;
+  width: 76px;
 }

@@ -25,3 +25,6 @@ background: transparent;
         const winner = document.createElement("h1");
     winner.innerText = player + " has won the game!";
     document.body.append(winner);
+
+    buttonnumber1:  right: 309.5px;
+  top: 119px;

@@ -1,0 +1,74 @@
+.buttonnumberdouble {
+  height: 18px;
+  width: 78px;
+  position: fixed;
+  border-radius: 15px;
+}
+#double1 {
+  right: 7cm;
+  top: 2cm;
+  margin-top: 8.7mm;
+  margin-right: 2.6mm;
+  transform: rotate(18deg);
+}
+#double2 {
+  right: 5cm;
+  bottom: 6cm;
+  margin-bottom: -7.5mm;
+  margin-right: 3.5mm;
+  transform: rotate(144deg);
+}
+#double3 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: -66mm;
+  transform: rotate(0deg);
+}
+#double4 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: 39.8mm;
+  margin-right: -53mm;
+  transform: rotate(54deg);
+}
+#double18 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: 54.5mm;
+  margin-right: -38.4mm;
+  transform: rotate(36deg);
+}
+#double13 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: 21.2mm;
+  margin-right: -62.5mm;
+  transform: rotate(72deg);
+}
+#double6 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-right: -65.9mm;
+  margin-bottom: 0.7mm;
+
+  transform: rotate(90deg);
+}
+#double5 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: 63.7mm;
+  margin-right: 21.3mm;
+  transform: rotate(-18deg);
+}
+#double20 {
+  right: 9.222cm;
+  bottom: 10.5cm;
+  margin-bottom: 66.8mm;
+  margin-right: 0.7mm;
+  transform: rotate(0deg);
+}
+#double15 {
+  right: 149px;
+  bottom: 253px;
+  transform: rotate(306deg);
+}
