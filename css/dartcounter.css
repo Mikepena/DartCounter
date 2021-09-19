@@ -2,18 +2,21 @@
   position: absolute;
   top: 60px;
   left: 50px;
+  color: white;
 }
 
 .playerTwo {
   position: absolute;
   top: 60px;
   left: 300px;
+  color: white;
 }
 .count {
   font-size: 60px;
 }
 
 .nextPlayer {
+  color: white;
   position: absolute;
   top: 250px;
   left: 100px;
@@ -28,7 +31,14 @@
   width: 76px;
 }
 .threeDartsCounterPlayerOne {
-  color: rgb(104, 42, 42);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 1cm;
+  letter-spacing: 3px;
+  font-family: Century Gothic, sans-serif;
+}
+.threeDartsCounterPlayerTwo {
+  color: white;
   text-shadow: 2px 2px 5px black;
   font-size: 1cm;
   letter-spacing: 3px;
