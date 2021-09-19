@@ -14,10 +14,39 @@ var lastDartPlayerOne;
 var lastDartPlayerTwo;
 var threeDartsPlayerOne = [];
 var threeDartsPlayerTwo = [];
+var allDartsPlayerOne = [];
+var allDartsPlayerTwo = [];
 var interval;
 
 function getPlayers(players) {
   return players;
+}
+
+function getAverageDartsPlayerOne() {
+  let allDartsPlayerOneLength = allDartsPlayerOne.length;
+  if (allDartsPlayerOneLength == 0) {
+    allDartsPlayerOne.push(threeDartsPlayerOne[0]);
+  }
+  let totalSum = 0;
+  for (let i in allDartsPlayerOne) {
+    totalSum += allDartsPlayerOne[i];
+  }
+  let average = totalSum / allDartsPlayerOneLength;
+  console.log(totalSum, allDartsPlayerOneLength, average);
+  return Math.round((average + Number.EPSILON) * 100) / 100;
+}
+
+function getAverageDartsPlayerTwo() {
+  let allDartsPlayerTwoLength = allDartsPlayerTwo.length;
+  if (allDartsPlayerTwoLength == 0) {
+    allDartsPlayerTwo.push(threeDartsPlayerTwo[0]);
+  }
+  let totalSum = 0;
+  for (let i in allDartsPlayerTwo) {
+    totalSum += allDartsPlayerTwo[i];
+  }
+  let average = totalSum / allDartsPlayerTwoLength;
+  return Math.round((average + Number.EPSILON) * 100) / 100;
 }
 
 document.querySelector("#nextgame").onclick = function () {
@@ -28,6 +57,8 @@ function newGame() {
   playerTwo = 501;
   threeDartsPlayerOne = [];
   threeDartsPlayerTwo = [];
+  allDartsPlayerOne = [];
+  allDartsPlayerTwo = [];
   counterPlayerOne = 0;
   counterPlayerTwo = 0;
   document.getElementById("count1").innerHTML = playerOne;
@@ -93,10 +124,12 @@ function changePlayerButton() {
 function addThrowToList(dart, player) {
   if (player == 1) {
     threeDartsPlayerOne.push(dart);
+    allDartsPlayerOne.push(dart);
     document.querySelector("#dartsPlayerOne").innerHTML = threeDartsPlayerOne;
   }
   if (player == 2) {
     threeDartsPlayerTwo.push(dart);
+    allDartsPlayerTwo.push(dart);
     document.querySelector("#dartsPlayerTwo").innerHTML = threeDartsPlayerTwo;
   }
 }
@@ -132,9 +165,11 @@ function changePoints(num) {
   document.querySelector("#nextPlayer").innerText = "";
 
   if (p1 === true) {
-    document.querySelector("#dartsPlayerTwo").innerHTML = "";
-    threeDartsPlayerTwo = [];
     addThrowToList(num, 1);
+    let average = getAverageDartsPlayerOne();
+    document.querySelector("#dartsPlayerTwo").innerHTML = "";
+    document.querySelector("#allDartsCounterPlayerOne").innerText = average;
+    threeDartsPlayerTwo = [];
     lastDartPlayerOne = num;
     if (playerOne < num) {
       changePlayer(1);
@@ -153,9 +188,11 @@ function changePoints(num) {
   }
 
   if (p2 === true) {
-    document.querySelector("#dartsPlayerOne").innerHTML = "";
-    threeDartsPlayerOne = [];
     addThrowToList(num, 2);
+    let average = getAverageDartsPlayerTwo();
+    document.querySelector("#dartsPlayerOne").innerHTML = "";
+    document.querySelector("#allDartsCounterPlayerTwo").innerText = average;
+    threeDartsPlayerOne = [];
     lastDartPlayerTwo = num;
     if (playerTwo < num) {
       changePlayer(2);
