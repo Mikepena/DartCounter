@@ -61,8 +61,17 @@ function newGame() {
   allDartsPlayerTwo = [];
   counterPlayerOne = 0;
   counterPlayerTwo = 0;
+  p1 = true;
+  p2 = false;
   document.getElementById("count1").innerHTML = playerOne;
   document.getElementById("count2").innerHTML = playerTwo;
+  document.querySelector("#nextPlayer").innerText = "";
+  document.querySelector("#dartsPlayerOne").innerHTML = "";
+  document.querySelector("#dartsPlayerTwo").innerHTML = "";
+  document.querySelector("#allDartsCounterPlayerOne").innerText = "";
+  document.querySelector("#allDartsCounterPlayerTwo").innerText = "";
+  document.getElementById("p1").style.color = "blue";
+  document.getElementById("p2").style.color = "white";
 }
 
 document.querySelector("#undoDarts").onclick = function () {
