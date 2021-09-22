@@ -6,7 +6,7 @@ var p1 = true;
 var p2;
 var roundNumber = 1;
 var allDartsRound = [];
-
+var win;
 
 function checkIfNumberIsCorrectWithRound(dartBoardNumber, points) {
   if (roundNumber == dartBoardNumber) {
@@ -17,6 +17,9 @@ function checkIfNumberIsCorrectWithRound(dartBoardNumber, points) {
 
 
 function changePoints(num) {
+  if(win === true) { //wenn gewonnen keine aktion mehr möglich
+    return;
+  }
   if (p1 === true) {
     dartPointsP1 += num;
     allDartsRound.push(num);
@@ -24,6 +27,22 @@ function changePoints(num) {
   }
   document.getElementById("count1").innerHTML = dartPointsP1;
   document.getElementById("count2").innerHTML = dartPointsP2;
+}
+
+function checkNumbersShanghaiWinPrintWinner(roundNumber, number1, number2, number3) {
+  if(roundNumber == round && //vereinfachung der unteren funktion
+     allDartsRound.includes(number1) &&
+    allDartsRound.includes(number2) &&
+    allDartsRound.includes(number3)
+  ) {
+    if (p1 === true) {
+      document.querySelector("#nextPlayer").innerText =
+        "Player One has a Shanghai, he has won!";
+    } else {
+      document.querySelector("#nextPlayer").innerText =
+        "Player Two has a Shanghai, he has won!";
+    }
+  }
 }
 
 function checkIfShanghaiWin(round) {

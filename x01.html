@@ -19,13 +19,13 @@
 
   <body>
     <div class="playerOne" id="p1">
-      <h1>Player1</h1>
+      <h1 id="playerOneName"> Player1</h1>
       <p class="count" id="count1">501</p>
       <p class="threeDartsCounterPlayerOne" id="dartsPlayerOne"></p>
       <p class="allDartsCounter" id="allDartsCounterPlayerOne"></p>
     </div>
     <div class="playerTwo" id="p2">
-      <h1>Player2</h1>
+      <h1 id="playerTwoName">Player2</h1>
 
       <p class="count" id="count2">501</p>
 
@@ -40,6 +40,7 @@
     <button type="button" class="undoDart" id="undoDarts">
       Undo Last Throw
     </button>
+    
     <h2 class="nextPlayer" id="nextPlayer"></h2>
     <img
       class="dartscheibe"
@@ -48,6 +49,24 @@
       width="700"
       height="700"
     />
+    <form action="/playerx01.html" method="POST">
+      <div class='form-uname'>
+        
+        <label for='nameInputP1'>Player1:</label>
+        <input id='nameInputP1' type='text' name="playerOneName"></input><br>
+        <input type="checkbox" id="doubleInPlayerOne" name="doubleIn" value="true">
+        <label for="doubleInPlayerOne"> Double In</label><br>
+
+        <label for='nameInputP2'>Player2:</label>
+        <input id='nameInputP2' type='text'></input><br>
+        <input type="checkbox" id="doubleInPlayerTwo" name="doubleIn" value="true">
+        <label for="doubleInPlayerOne"> Double In</label><br>
+
+        <div class='form-sub'>
+          <button id='submitName' type='button'>Submit the names</button>
+        </div>
+      </div>
+    </form>
     <div class="buttonsingles" id="singles">
       <button type="button" class="buttonnumber1" id="1">1</button>
       <button type="button" class="buttonnumber2" id="2">2</button>
