@@ -23,6 +23,8 @@ var p1DoubleInHit = false;
 var p2DoubleInHit = false;
 var namePlayerOne = "Player One";
 var namePlayerTwo = "Player Two";
+var resultPlayerOneDoubleInChecked;
+var resultPlayerTwoDoubleInChecked;
 
 function getPlayers(players) {
   return players;
@@ -96,30 +98,16 @@ function checkDoubleInIsHit(isHit) {
   }
 }
 
-function getAverageDartsPlayerOne() {
-  let allDartsPlayerOneLength = allDartsPlayerOne.length;
-  if (allDartsPlayerOneLength == 0) {
-    allDartsPlayerOne.push(threeDartsPlayerOne[0]);
+function getAverageDarts(allDarts, threeDarts) {
+  let allDartsLength = allDarts.length;
+  if (allDartsLength == 0) {
+    allDarts.push(threeDarts[0]);
   }
   let totalSum = 0;
-  for (let i in allDartsPlayerOne) {
-    totalSum += allDartsPlayerOne[i];
+  for (let i in allDarts) {
+    totalSum += allDarts[i];
   }
-  let average = totalSum / allDartsPlayerOneLength;
-  console.log(totalSum, allDartsPlayerOneLength, average);
-  return Math.round((average + Number.EPSILON) * 100) / 100;
-}
-
-function getAverageDartsPlayerTwo() {
-  let allDartsPlayerTwoLength = allDartsPlayerTwo.length;
-  if (allDartsPlayerTwoLength == 0) {
-    allDartsPlayerTwo.push(threeDartsPlayerTwo[0]);
-  }
-  let totalSum = 0;
-  for (let i in allDartsPlayerTwo) {
-    totalSum += allDartsPlayerTwo[i];
-  }
-  let average = totalSum / allDartsPlayerTwoLength;
+  let average = totalSum / allDartsLength;
   return Math.round((average + Number.EPSILON) * 100) / 100;
 }
 
@@ -289,7 +277,6 @@ function changePlayerColor() {
 
 function changePoints(num) {
   document.querySelector("#nextPlayer").innerText = "";
-
   if (p1 === true) {
     if (
       checkDoubleInWasHit("p1") == true ||
@@ -297,7 +284,7 @@ function changePoints(num) {
     ) {
       lastDartPlayerTwo = 0;
       addThrowToList(num, 1);
-      let average = getAverageDartsPlayerOne();
+      let average = getAverageDarts(allDartsPlayerOne, threeDartsPlayerOne);
       document.querySelector("#dartsPlayerTwo").innerHTML = "";
       document.querySelector("#allDartsCounterPlayerOne").innerText = average;
       threeDartsPlayerTwo = [];
@@ -326,7 +313,7 @@ function changePoints(num) {
     ) {
       lastDartPlayerOne = 0;
       addThrowToList(num, 2);
-      let average = getAverageDartsPlayerTwo();
+      let average = getAverageDarts(allDartsPlayerTwo, threeDartsPlayerTwo);
       document.querySelector("#dartsPlayerOne").innerHTML = "";
       document.querySelector("#allDartsCounterPlayerTwo").innerText = average;
       threeDartsPlayerOne = [];
