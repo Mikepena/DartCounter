@@ -89,6 +89,7 @@ function changePoints(num) {
     console.log("TEST");
     changePlayerColor();
     document.querySelector("#dartsPlayerTwo").innerHTML = "";
+    checkWinningPlayer();
   } else if (p2 === true) {
     dartPointsP2 += num;
     addThrowToList(num, 2);
@@ -101,6 +102,7 @@ function changePoints(num) {
     counterP2++;
     changePlayerColor();
     document.querySelector("#dartsPlayerOne").innerHTML = "";
+    checkWinningPlayer();
   }
   if (counterP1 == 3) {
     console.log("change");
