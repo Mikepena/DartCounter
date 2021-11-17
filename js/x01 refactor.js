@@ -360,6 +360,10 @@ function changePlayerColor() {
   }
 }
 
+function changePointsi() {
+  document.querySelector("#nextPlayer").innerText = "";
+}
+
 function changePoints(num) {
   document.querySelector("#nextPlayer").innerText = "";
   if (p1 === true) {

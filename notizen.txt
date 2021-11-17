@@ -1,0 +1,88 @@
+display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        position: absolute;
+        left: 700px;
+        bottom: 100px;
+        width: 650px;
+        height: 500px;
+//alle buttonsdisplay
+div.button {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        position: absolute;
+        left: 850px;
+        bottom: 150px;
+        width: 400px;
+        height: 400px;
+      }
+//transparenter background
+background: transparent;
+        border: none !important;
+        font-size:0;
+
+        const winner = document.createElement("h1");
+    winner.innerText = player + " has won the game!";
+    document.body.append(winner);
+
+    buttonnumber1:  right: 309.5px;
+  top: 119px;
+
+async defer
+
+  Make module für dart counter functions die man immer verwendet, changePlayer, next Player
+
+  export default ...
+  import .. from ..
+
+  const: backpack = {
+          name: function(object) {
+                  this.object = object
+          }
+          name: "Everyday Backpack",
+          volume: 30,
+
+  }
+
+  const: player = {
+          counter: 0,
+          points: 0,
+
+  }
+
+  const für ojects, kann properties changen aber nicht das oject neu referrieren
+  player = 5 geht nicht
+  player.counter = 5 geht
+
+  console.log("the player object ", player)  KOMMA WICHTIG
+  console.log("the player counter", player.counter) .for properties
+
+  03_10 classes for objects, eine player class und dann 2 objects createn für jeden player
+  type="module" in html File, class file hinzufügen
+
+  document.body gets body elemnt , ändert komplettes body element
+
+create content with html, create object, with $ sign you can assign values to it
+
+  const content = backticks ´´
+
+  <h1>${everydayPack.name}</h1>
+
+template literal
+
+setAttribute
+style
+
+display grid or flex for horizontal layout
+
+transform: scale(2);
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -moz-transform: scale(2);
+  transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;

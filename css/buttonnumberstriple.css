@@ -1,13 +1,37 @@
-.buttonnumbertriple {
-  height: 15px;
-  width: 48px;
-  position: fixed;
-  border-radius: 200px;
-  right: 9.222cm;
-  bottom: 10.5cm;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
+@media (max-width: 1920px) {
+  .buttonnumbertriple {
+    height: 15px;
+    width: 48px;
+    position: fixed;
+    border-radius: 200px;
+    right: 14cm;
+    bottom: 15.29cm;
+    background: transparent;
+    border: none;
+    font-size: 0;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .buttonnumbertriple {
+    height: 15px;
+    width: 48px;
+    position: fixed;
+    border-radius: 200px;
+    right: 9.222cm;
+    bottom: 10.5cm;
+    background: transparent;
+    border: none;
+    font-size: 0;
+  }
+}
+.buttonnumbertriple:hover {
+  border: white 0.1cm;
+  border-style: solid;
 }
 #triple1 {
   margin-bottom: 39.7mm;

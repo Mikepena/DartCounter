@@ -10,7 +10,7 @@ document.getElementById("p2").style.color = "white";
 
 const playerOne = new Player("Player One", 0, 0, true, [], 0);
 const playerTwo = new Player("Player Two", 0, 0, false, [], 0);
-const playerThree = new Player("Player Two", 0, 0, false, [], 0);
+const playerThree = new Player("Player Three", 0, 0, false, [], 0);
 const playerFour = new Player("Player Two", 0, 0, false, [], 0);
 
 document.querySelector("#nextgame").onclick = function () {
@@ -64,6 +64,8 @@ function refreshLastThreeDartsForBothPlayers() {
     playerOne.lastThreeDarts;
   document.querySelector("#dartsPlayerTwo").innerHTML =
     playerTwo.lastThreeDarts;
+  document.querySelector("#dartsPlayerThree").innerHTML =
+    playerThree.lastThreeDarts;
 }
 
 function changePlayerButton() {
@@ -71,10 +73,14 @@ function changePlayerButton() {
     changePlayer(playerOne);
     mainFunctions.refreshNextPlayer(playerTwo);
     mainFunctions.changePlayerButtonColor("p1");
-  } else {
+  } else if (playerTwo.isTrue == true) {
     changePlayer(playerTwo);
-    mainFunctions.refreshNextPlayer(playerOne);
+    mainFunctions.refreshNextPlayer(playerThree);
     mainFunctions.changePlayerButtonColor("p2");
+  } else {
+    changePlayer(playerThree);
+    mainFunctions.refreshNextPlayer(playerOne);
+    mainFunctions.changePlayerButtonColor("p3");
   }
   mainFunctions.refreshLastThreeDartsToEmpty();
   if (playerOne.isTrue == true) {
@@ -113,11 +119,16 @@ function changePlayer(player) {
     playerOne.isTrue = false;
     playerOne.counter = 0;
     playerOne.lastThreeDarts = [];
-  } else {
-    playerOne.isTrue = true;
+  } else if (player == playerTwo) {
+    playerThree.isTrue = true;
     playerTwo.isTrue = false;
     playerTwo.counter = 0;
     playerTwo.lastThreeDarts = [];
+  } else {
+    playerOne.isTrue = true;
+    playerThree.isTrue = false;
+    playerThree.counter = 0;
+    playerThree.lastThreeDarts = [];
   }
 }
 
@@ -128,10 +139,12 @@ function ifCounterIsThree(player, nextPlayer) {
     let playerObject = player;
     if (playerObject == playerOne) {
       mainFunctions.changePlayerButtonColor("p1");
-    } else {
+    } else if (playerObject == playerTwo) {
       mainFunctions.changePlayerButtonColor("p2");
+    } else {
+      mainFunctions.changePlayerButtonColor("p3");
     }
-    if (player == playerTwo) {
+    if (player == playerThree) {
       roundNumber++;
       refreshRoundNumber();
     }
@@ -152,14 +165,20 @@ function changePoints(num) {
       return;
     }
     ifCounterIsThree(playerOne, playerTwo);
-  } else {
+  } else if (playerTwo.isTrue == true) {
     changePointsForObject(playerTwo, num);
     if (win == true) {
       return;
     }
-    ifCounterIsThree(playerTwo, playerOne);
+    ifCounterIsThree(playerTwo, playerThree);
+  } else {
+    changePointsForObject(playerThree, num);
+    if (win == true) {
+      return;
+    }
+    ifCounterIsThree(playerThree, playerOne);
   }
-  mainFunctions.refreshCountToCurrentPoints(playerOne, playerTwo);
+  mainFunctions.refreshCountToCurrentPoints(playerOne, playerTwo, playerThree);
 }
 
 function checkNumbersShanghaiWinPrintWinner(

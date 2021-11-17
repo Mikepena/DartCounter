@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html>
+  <style>
+    body {
+        background-image: url("/img/dart-background.jpg");
+        background-size: cover;
+      }
+      
+      
+      .playerOne {
+        position: absolute;
+        left: 7cm;
+        color: black;
+        font-size: 1cm;
+        
+      }
+      #textForPlayerInput1 {
+        color: white;
+      }
+      #nameInputP1 {
+        height: 1.5cm;
+        width: 8cm;
+        margin-left: 1cm;
+
+      }
+      
+      .checkboxes {
+        margin-top: 19mm;
+        margin-left: 21mm;
+        display: grid;
+        grid-auto-flow:row;
+        grid-column-gap: 10px;
+      }
+      
+      .checkboxestext {
+        position: absolute;
+        margin-top: -0.8cm;
+        margin-left: 4cm;
+        display: grid;
+        grid-auto-flow:row;
+        background-color: red;
+        border: black;
+        border-style: solid;
+        border-width: 2mm;
+        border-radius: 2px;
+      }
+      
+      .playerTwo {
+        position: absolute;
+        left: 20cm;
+        color: black;
+        font-size: 1cm;
+        
+      }
+
+      #textForPlayerInput2 {
+        color: white;
+      }
+
+      #nameInputP2 {
+        height: 1.5cm;
+        width: 8cm;
+        margin-left: 1cm;
+
+      }
+      
+      /*.doubleIn {
+        position: absolute;
+        left: 5cm;
+        top: 2cm;
+        height: 18cm;
+        width: 18cm;
+      
+        zoom: 4;
+      
+        
+      }*/
+      doubleIn[type='checkbox']:checked {
+  background: #adf;
+      }
+      
+      
+  </style>
+  <head> </head>
+  <body>
+    <h2 id="Enter Name for Player">Enter Name for Player One</h2>
+    <form action="/playerx01.html" method="POST">
+      
+        <div class="playerOne">
+        <label id="textForPlayerInput1" for='nameInputP1'>Enter Name For Player One</label><br>
+        <input id='nameInputP1' type='text' name="playerOneName"></input><br>
+          <div class="testcheckboxes">
+          <input class= "checkboxes" type="checkbox" id="doubleInPlayerOne" name="doubleIn" value="true">
+          <label class="checkboxestext" id="textDoubleIn1" for="doubleInPlayerOne"> Double In</label><br>
+
+          <input class= "checkboxes"  type="checkbox" id="doubleOutP1" name="doubleOut" value="true">
+          <label class="checkboxestext" id="textDoubleOut1" for="doubleOutP1"> Double Out</label><br>
+
+          <input class= "checkboxes" type="checkbox" id="mastersInP1" name="mastersIn" value="true">
+          <label class="checkboxestext" id="textMastersIn1" for="mastersInP1"> Masters In</label><br>
+
+          <input class= "checkboxes" type="checkbox" id="mastersOutP1" name="mastersOut" value="true">
+          <label class="checkboxestext" id="textMastersOut1" for="mastersOutP1"> Masters Out</label>
+        </div>
+      </div>
+      <div class="playerTwo">
+        <label id="textForPlayerInput2" for='nameInputP2'>Enter Name For Player Two</label>
+        <input class="inputName" id='nameInputP2' type='text'></input><br>
+        
+        <div class="testcheckboxes">
+          <input class= "checkboxes" type="checkbox" id="doubleInPlayerTwo" name="doubleIn" value="true">
+          <label class="checkboxestext" id="textDoubleIn2" for="doubleInPlayerTwo"> Double In</label><br>
+
+          <input class= "checkboxes"  type="checkbox" id="doubleOutP2" name="doubleOut" value="true">
+          <label class="checkboxestext" id="textDoubleOut2" for="doubleOutP2"> Double Out</label><br>
+
+          <input class= "checkboxes" type="checkbox" id="mastersInP2" name="mastersIn" value="true">
+          <label class="checkboxestext" id="textMastersIn2" for="mastersInP2"> Masters In</label><br>
+
+          <input class= "checkboxes" type="checkbox" id="mastersOutP2" name="mastersOut" value="true">
+          <label class="checkboxestext" id="textMastersOut2" for="mastersOutP2"> Masters Out</label>
+        </div>
+        </div>
+
+
+        <div class='form-sub'>
+          <button id='submitName'  type='button'>Submit the names</button>
+          <button id='close' type='button'>CLOSE</button>
+          <a href="/html/x01.html">Link</a>
+
+        </div>
+    </form>
+  </body>
+  <script src="/js/modules/playerNames.js"></script>
+</html>

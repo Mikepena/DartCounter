@@ -1,0 +1,320 @@
+.buttonnumbersingle {
+}
+
+.buttonnumber20 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 350px;
+  top: 115px;
+  border-radius: 15px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber1 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 8.18cm;
+  top: 3.13cm;
+  transform: rotate(18.4deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber18 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 7.15cm;
+  top: 3.6cm;
+  margin-top: 1mm;
+  margin-right: 0.5mm;
+  transform: rotate(36deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber4 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 6.21cm;
+  top: 4.4cm;
+  margin-right: 2mm;
+  margin-top: 0.5mm;
+  transform: rotate(54deg);
+  border-radius: 15px;
+  border-radius: 12px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber13 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 6.21cm;
+  top: 4.4cm;
+  margin-right: -3mm;
+  margin-top: 10.9mm;
+  border-radius: 15px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  transform: rotate(72deg);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber6 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 6.21cm;
+  top: 4.4cm;
+  margin-right: -5.2mm;
+  margin-top: 21.4mm;
+  border-radius: 15px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  transform: rotate(90deg);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber10 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 5cm;
+  top: 8cm;
+  margin-right: 9mm;
+  margin-top: -3.5mm;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  transform: rotate(108deg);
+  border-radius: 15px;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.buttonnumber15 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 5cm;
+  top: 8cm;
+  margin-right: 14mm;
+  margin-top: 6mm;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  transform: rotate(126deg);
+  border-radius: 15px;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber2 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 7.2cm;
+  top: 9.4cm;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  transform: rotate(144deg);
+  border-radius: 15px;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.buttonnumber17 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 308px;
+  bottom: 170px;
+  transform: rotate(342deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber3 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 350px;
+  bottom: 165px;
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber19 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 308px;
+  bottom: 170px;
+  margin-right: 22mm;
+  transform: rotate(378deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber7 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 7.2cm;
+  top: 9.4cm;
+  margin-right: 41.7mm;
+  margin-top: 1mm;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  transform: rotate(396deg);
+  border-radius: 15px;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber16 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 308px;
+  bottom: 170px;
+  margin-right: 40mm;
+  margin-bottom: 13mm;
+  transform: rotate(414deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber8 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 308px;
+  bottom: 170px;
+  margin-right: 44.9mm;
+  margin-bottom: 23.1mm;
+  transform: rotate(432deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber11 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 8.35cm;
+  bottom: 5.61cm;
+  margin-right: 44.9mm;
+  margin-bottom: 23.1mm;
+  transform: rotate(90deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.buttonnumber14 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 8.35cm;
+  bottom: 5.61cm;
+  margin-right: 43.3mm;
+  margin-bottom: 34.1mm;
+  transform: rotate(468deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber9 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 8.35cm;
+  bottom: 7cm;
+  margin-right: 38mm;
+  margin-bottom: 30mm;
+  transform: rotate(486deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber12 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 7.8cm;
+  bottom: 8cm;
+  margin-right: 36mm;
+  margin-bottom: 28.8mm;
+  transform: rotate(504deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.buttonnumber5 {
+  height: 215px;
+  width: 77px;
+  position: absolute;
+  right: 6.5cm;
+  bottom: 8.4cm;
+  margin-right: 39mm;
+  margin-bottom: 29mm;
+  transform: rotate(522deg);
+  border-radius: 15px;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+.buttonnumber50 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 378.5px;
+  bottom: 397px;
+  border-radius: 15px;
+  z-index: 1;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.buttonnumber25 {
+  height: 44px;
+  width: 44px;
+  position: absolute;
+  right: 367px;
+  bottom: 385px;
+  border-radius: 22px;
+  z-index: 0;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}

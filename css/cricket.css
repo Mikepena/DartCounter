@@ -1,0 +1,127 @@
+.PlayerOneCricketNumbers {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  top: 8.2cm;
+  left: 3.5cm;
+}
+#dartsPlayerOne {
+  position: absolute;
+  top: 4.5cm;
+}
+
+#dartsPlayerTwo {
+  position: absolute;
+  top: 4.5cm;
+}
+
+#p1Name {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  top: 10.1cm;
+}
+#P120 {
+  position: absolute;
+  left: 0.5cm;
+}
+#P119 {
+  position: absolute;
+  left: 2.5cm;
+}
+#P118 {
+  position: absolute;
+  left: 4.5cm;
+}
+#P117 {
+  position: absolute;
+  left: 6.5cm;
+}
+#P116 {
+  position: absolute;
+  left: 8.5cm;
+}
+#P115 {
+  position: absolute;
+  left: 10.5cm;
+}
+#P1Bull {
+  position: absolute;
+  left: 12.5cm;
+}
+.PlayerTwoCricketNumbers {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  left: 3.5cm;
+}
+#p2Name {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  top: 12.1cm;
+}
+.playerOneThrows {
+  position: absolute;
+  top: 1.5cm;
+}
+#P120count {
+  position: absolute;
+  left: 0.8cm;
+}
+#P119count {
+  position: absolute;
+  left: 2.8cm;
+}
+#P118count {
+  position: absolute;
+  left: 4.8cm;
+}
+#P117count {
+  position: absolute;
+  left: 6.8cm;
+}
+#P116count {
+  position: absolute;
+  left: 8.8cm;
+}
+#P115count {
+  position: absolute;
+  left: 10.8cm;
+}
+#P1Bullcount {
+  position: absolute;
+  left: 13.4cm;
+}
+.playerTwoThrows {
+  position: absolute;
+  top: 3.5cm;
+}
+#P220count {
+  position: absolute;
+  left: 0.8cm;
+}
+#P219count {
+  position: absolute;
+  left: 2.8cm;
+}
+#P218count {
+  position: absolute;
+  left: 4.8cm;
+}
+#P217count {
+  position: absolute;
+  left: 6.8cm;
+}
+#P216count {
+  position: absolute;
+  left: 8.8cm;
+}
+#P215count {
+  position: absolute;
+  left: 10.8cm;
+}
+#P2Bullcount {
+  position: absolute;
+  left: 13.4cm;
+}

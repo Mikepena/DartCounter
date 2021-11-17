@@ -25,6 +25,22 @@
   position: absolute;
   left: 700px;
 }
+@media (max-width: 1920px) {
+  .dartscheibe {
+    left: 1000px;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .dartscheibe {
+    position: absolute;
+    left: 700px;
+  }
+}
 
 .buttondoubles {
   height: 50px;
@@ -47,4 +63,60 @@
 .form-uname {
   position: absolute;
   bottom: 10%;
+}
+.scoreboard {
+  position: absolute;
+  z-index: -2;
+  left: 0cm;
+  top: 0cm;
+}
+.buttonnextplayer {
+  position: absolute;
+  top: 0.5cm;
+  left: 14cm;
+  width: 170px;
+  height: 100px;
+  background-color: lime;
+  color: black;
+  font-size: 0.7cm;
+  border: black;
+  border-style: solid;
+  border-radius: 0.2cm;
+}
+.buttonnextplayer:hover {
+  border: 0.15cm black;
+  border-style: solid;
+}
+#nextgame {
+  position: absolute;
+  bottom: 0.1cm;
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 0.7cm;
+  border: black;
+  border-style: solid;
+  border-radius: 0.2cm;
+}
+#nextgame:hover {
+  border: 0.15cm black;
+  border-style: solid;
+}
+.undoDart {
+  position: absolute;
+  top: 3.2cm;
+  left: 14cm;
+  width: 167px;
+  height: 40px;
+  background-color: red;
+  color: black;
+  font-size: 0.5cm;
+  border: black;
+  border-style: solid;
+  border-radius: 0.2cm;
+}
+.undoDart:hover {
+  border: 0.15cm black;
+  border-style: solid;
 }

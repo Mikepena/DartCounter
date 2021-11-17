@@ -7,14 +7,35 @@
           rgba(255, 255, 255, 0.2),
           rgba(255, 255, 255, 0.2)
         );
-        background-image: url("background2.jpg");
+        background-image: url("/img/background2.jpg");
         background-size: cover;
+        z-index: -1;
+      }
+      .roundNumber {
+        position: absolute;
+        top: 4cm;
+        left: 7cm;
+        font-size: 200px;
+        color: white;
+      }
+      .playerThree {
+        position: fixed;
+        bottom: 5cm;
+        left: 1.1cm;
+        color: white;
+      }
+      .threeDartsCounterPlayerThree {
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        font-size: 1cm;
+        letter-spacing: 3px;
+        font-family: Century Gothic, sans-serif;
       }
     </style>
-    <link rel="stylesheet" href="css/dartcounter.css" />
-    <link rel="stylesheet" href="css/buttonnumbersingles.css" />
-    <link rel="stylesheet" href="css/buttonnumbersdoubles.css" />
-    <link rel="stylesheet" href="css/buttonnumberstriple.css" />
+    <link rel="stylesheet" href="/css/dartcounter.css" />
+    <link rel="stylesheet" href="/css/buttonnumbersingles.css" />
+    <link rel="stylesheet" href="/css/buttonnumbersdoubles.css" />
+    <link rel="stylesheet" href="/css/buttonnumberstriple.css" />
   </head>
 
   <body>
@@ -32,45 +53,63 @@
       <p class="threeDartsCounterPlayerTwo" id="dartsPlayerTwo"></p>
       <p class="allDartsCounter" id="allDartsCounterPlayerTwo"></p>
     </div>
+    <div class="playerThree" id="p3">
+      <h1>Player3</h1>
+
+      <p class="count" id="count3">0</p>
+
+      <p class="threeDartsCounterPlayerThree" id="dartsPlayerThree"></p>
+      <p class="allDartsCounter" id="allDartsCounterPlayerThree"></p>
+    </div>
 
     <button type="button" class="buttonnextplayer" id="nextPlayerButton">
       Next Player
     </button>
-    <button type="button" class="next game" id="nextgame">Next Game</button>
+    <h2 class="roundNumber" id="numberOfRound">1</h2>
+
+    <button type="button" class="nextgame" id="nextgame">Next Game</button>
     <button type="button" class="undoDart" id="undoDarts">
-      Undo Last Throw
+      Undo Last Dart
     </button>
     <h2 class="nextPlayer" id="nextPlayer"></h2>
     <img
+      class="scoreboard"
+      src="/img/grünetafel.jpg"
+      alt=""
+      width="500"
+      height="595"
+    />
+    <img
       class="dartscheibe"
-      src="dartscheibetest.png"
+      src="/img/dartscheibetest.png"
       alt=""
       width="700"
       height="700"
     />
+
     <div class="buttonsingles" id="singles">
-      <button type="button" class="buttonnumber1" id="1">1</button>
-      <button type="button" class="buttonnumber2" id="2">2</button>
-      <button type="button" class="buttonnumber3" id="3">3</button>
-      <button type="button" class="buttonnumber4" id="4">4</button>
-      <button type="button" class="buttonnumber5" id="5">5</button>
-      <button type="button" class="buttonnumber6" id="6">6</button>
-      <button type="button" class="buttonnumber7" id="7">7</button>
-      <button type="button" class="buttonnumber8" id="8">8</button>
-      <button type="button" class="buttonnumber9" id="9">9</button>
-      <button type="button" class="buttonnumber10" id="10">10</button>
-      <button type="button" class="buttonnumber11" id="11">11</button>
-      <button type="button" class="buttonnumber12" id="12">12</button>
-      <button type="button" class="buttonnumber13" id="13">13</button>
-      <button type="button" class="buttonnumber14" id="14">14</button>
-      <button type="button" class="buttonnumber15" id="15">15</button>
-      <button type="button" class="buttonnumber16" id="16">16</button>
-      <button type="button" class="buttonnumber17" id="17">17</button>
-      <button type="button" class="buttonnumber18" id="18">18</button>
-      <button type="button" class="buttonnumber19" id="19">19</button>
-      <button type="button" class="buttonnumber20" id="20">20</button>
-      <button type="button" class="buttonnumber25" id="25">25</button>
-      <button type="button" class="buttonnumber50" id="50">50</button>
+      <button type="button" class="buttonnumbersingle" id="single1">1</button>
+      <button type="button" class="buttonnumbersingle" id="single2">2</button>
+      <button type="button" class="buttonnumbersingle" id="single3">3</button>
+      <button type="button" class="buttonnumbersingle" id="single4">4</button>
+      <button type="button" class="buttonnumbersingle" id="single5">5</button>
+      <button type="button" class="buttonnumbersingle" id="single6">6</button>
+      <button type="button" class="buttonnumbersingle" id="single7">7</button>
+      <button type="button" class="buttonnumbersingle" id="single8">8</button>
+      <button type="button" class="buttonnumbersingle" id="single9">9</button>
+      <button type="button" class="buttonnumbersingle" id="single10">10</button>
+      <button type="button" class="buttonnumbersingle" id="single11">11</button>
+      <button type="button" class="buttonnumbersingle" id="single12">12</button>
+      <button type="button" class="buttonnumbersingle" id="single13">13</button>
+      <button type="button" class="buttonnumbersingle" id="single14">14</button>
+      <button type="button" class="buttonnumbersingle" id="single15">15</button>
+      <button type="button" class="buttonnumbersingle" id="single16">16</button>
+      <button type="button" class="buttonnumbersingle" id="single17">17</button>
+      <button type="button" class="buttonnumbersingle" id="single18">18</button>
+      <button type="button" class="buttonnumbersingle" id="single19">19</button>
+      <button type="button" class="buttonnumbersingle" id="single20">20</button>
+      <button type="button" class="buttonnumberbull" id="single25">25</button>
+      <button type="button" class="buttonnumberbull" id="single50">50</button>
     </div>
 
     <div class="buttondoubles">
@@ -119,5 +158,5 @@
       <button type="button" class="buttonnumbertriple" id="triple20">60</button>
     </div>
   </body>
-  <script src="js/shanghai.js"></script>
+  <script type="module" src="/js/shanghai3P.js"></script>
 </html>

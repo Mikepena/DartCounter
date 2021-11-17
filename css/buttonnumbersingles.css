@@ -1,317 +1,171 @@
-.buttonnumber20 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 350px;
-  top: 115px;
-  border-radius: 15px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
+@media (max-width: 1920px) {
+  .buttonnumbersingle {
+    height: 215px;
+    width: 77px;
+    position: absolute;
+    right: 14cm;
+    bottom: 15.29cm;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    border-radius: 15px;
+    background: transparent;
+    border: none;
+    font-size: 0;
+  }
 }
-.buttonnumber1 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 8.18cm;
-  top: 3.13cm;
-  transform: rotate(18.4deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .buttonnumbersingle {
+    height: 215px;
+    width: 77px;
+    position: absolute;
+    right: 9.222cm;
+    bottom: 10.5cm;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    border-radius: 15px;
+    background: transparent;
+    border: none;
+    font-size: 0;
+  }
 }
-.buttonnumber18 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 7.15cm;
-  top: 3.6cm;
-  margin-top: 1mm;
-  margin-right: 0.5mm;
+
+.buttonnumbersingle:hover {
+  border: white 0.1cm;
+  border-style: solid;
+}
+
+#single20 {
+  margin-bottom: 10mm;
+  margin-right: 0.6mm;
+}
+#single1 {
+  margin-bottom: 8.6mm;
+  margin-right: -10.6mm;
+  transform: rotate(18deg);
+}
+#single18 {
+  margin-bottom: 3.8mm;
+  margin-right: -20.5mm;
   transform: rotate(36deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber4 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 6.21cm;
-  top: 4.4cm;
-  margin-right: 2mm;
-  margin-top: 0.5mm;
+#single4 {
+  margin-bottom: -4.7mm;
+  margin-right: -28.5mm;
   transform: rotate(54deg);
-  border-radius: 15px;
-  border-radius: 12px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber13 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 6.21cm;
-  top: 4.4cm;
-  margin-right: -3mm;
-  margin-top: 10.9mm;
-  border-radius: 15px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
+#single13 {
+  margin-bottom: -14.4mm;
+  margin-right: -33.5mm;
   transform: rotate(72deg);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber6 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 6.21cm;
-  top: 4.4cm;
-  margin-right: -5.2mm;
-  margin-top: 21.4mm;
-  border-radius: 15px;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
+#single6 {
+  margin-bottom: -25.4mm;
+  margin-right: -35.5mm;
   transform: rotate(90deg);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber10 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 5cm;
-  top: 8cm;
-  margin-right: 9mm;
-  margin-top: -3.5mm;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
+#single10 {
+  margin-bottom: -36.8mm;
+  margin-right: -33.8mm;
   transform: rotate(108deg);
-  border-radius: 15px;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
 
-.buttonnumber15 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 5cm;
-  top: 8cm;
-  margin-right: 14mm;
-  margin-top: 6mm;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
+#single15 {
+  margin-bottom: -46.5mm;
+  margin-right: -28.8mm;
   transform: rotate(126deg);
-  border-radius: 15px;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber2 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 7.2cm;
-  top: 9.4cm;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
+#single2 {
+  margin-bottom: -54.6mm;
+  margin-right: -20.9mm;
   transform: rotate(144deg);
-  border-radius: 15px;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
 
-.buttonnumber17 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 308px;
-  bottom: 170px;
+#single17 {
+  margin-bottom: -59.9mm;
+  margin-right: -10.9mm;
+  transform: rotate(162deg);
+}
+#single3 {
+  margin-bottom: -61.5mm;
+  transform: rotate(180deg);
+}
+#single19 {
+  margin-bottom: -60mm;
+  margin-right: 11.2mm;
+  transform: rotate(198deg);
+}
+#single7 {
+  margin-bottom: -55mm;
+  margin-right: 21.2mm;
+  transform: rotate(216deg);
+}
+#single16 {
+  margin-bottom: -47mm;
+  margin-right: 29.2mm;
+  transform: rotate(234deg);
+}
+#single8 {
+  margin-bottom: -36.9mm;
+  margin-right: 34.5mm;
+  transform: rotate(252deg);
+}
+#single11 {
+  margin-bottom: -25.8mm;
+  margin-right: 36.5mm;
+  transform: rotate(270deg);
+}
+
+#single14 {
+  margin-bottom: -14.8mm;
+  margin-right: 34.5mm;
+  transform: rotate(288deg);
+}
+#single9 {
+  margin-bottom: -5.2mm;
+  margin-right: 29mm;
+  transform: rotate(306deg);
+}
+#single12 {
+  margin-bottom: 2.9mm;
+  margin-right: 21.5mm;
+  transform: rotate(324deg);
+}
+
+#single5 {
+  margin-bottom: 8.9mm;
+  margin-right: 11.8mm;
   transform: rotate(342deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber3 {
-  height: 215px;
-  width: 77px;
+.buttonnumberbull {
   position: absolute;
-  right: 350px;
-  bottom: 165px;
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
   background: transparent;
-  border: none !important;
+  border: none;
   font-size: 0;
 }
-.buttonnumber19 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 308px;
-  bottom: 170px;
-  margin-right: 22mm;
-  transform: rotate(378deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber7 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 7.2cm;
-  top: 9.4cm;
-  margin-right: 41.7mm;
-  margin-top: 1mm;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  transform: rotate(396deg);
-  border-radius: 15px;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber16 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 308px;
-  bottom: 170px;
-  margin-right: 40mm;
-  margin-bottom: 13mm;
-  transform: rotate(414deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber8 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 308px;
-  bottom: 170px;
-  margin-right: 44.9mm;
-  margin-bottom: 23.1mm;
-  transform: rotate(432deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber11 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 8.35cm;
-  bottom: 5.61cm;
-  margin-right: 44.9mm;
-  margin-bottom: 23.1mm;
-  transform: rotate(90deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-
-.buttonnumber14 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 8.35cm;
-  bottom: 5.61cm;
-  margin-right: 43.3mm;
-  margin-bottom: 34.1mm;
-  transform: rotate(468deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber9 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 8.35cm;
-  bottom: 7cm;
-  margin-right: 38mm;
-  margin-bottom: 30mm;
-  transform: rotate(486deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-.buttonnumber12 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 7.8cm;
-  bottom: 8cm;
-  margin-right: 36mm;
-  margin-bottom: 28.8mm;
-  transform: rotate(504deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-
-.buttonnumber5 {
-  height: 215px;
-  width: 77px;
-  position: absolute;
-  right: 6.5cm;
-  bottom: 8.4cm;
-  margin-right: 39mm;
-  margin-bottom: 29mm;
-  transform: rotate(522deg);
-  border-radius: 15px;
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  background: transparent;
-  border: none !important;
-  font-size: 0;
-}
-
-.buttonnumber50 {
+#single50 {
   height: 20px;
   width: 20px;
-  position: absolute;
   right: 378.5px;
   bottom: 397px;
   border-radius: 15px;
   z-index: 1;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
 }
-.buttonnumber25 {
+#single50:hover {
+  border: white 0.1cm;
+  border-style: solid;
+}
+#single25 {
   height: 44px;
   width: 44px;
-  position: absolute;
   right: 367px;
   bottom: 385px;
   border-radius: 22px;
   z-index: 0;
-  background: transparent;
-  border: none !important;
-  font-size: 0;
+}
+#single25:hover {
+  border: white 0.1cm;
+  border-style: solid;
 }
